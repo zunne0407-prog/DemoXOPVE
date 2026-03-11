@@ -1,0 +1,65 @@
+# ── Môi trường & secrets ─────────────────────────────
+.env
+*.key
+
+# ── Python ───────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+*.egg
+*.egg-info/
+dist/
+build/
+eggs/
+wheels/
+*.whl
+*.spec
+develop-eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+.installed.cfg
+MANIFEST
+
+# ── Virtual environments ──────────────────────────────
+.venv/
+venv/
+env/
+ENV/
+.env.local
+.env.*.local
+
+# ── IDE / Editor ──────────────────────────────────────
+.vscode/
+.idea/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# ── Testing & Coverage ────────────────────────────────
+.pytest_cache/
+.coverage
+coverage.xml
+htmlcov/
+.tox/
+.nox/
+
+# ── Type checking ─────────────────────────────────────
+.mypy_cache/
+.pytype/
+.pyre/
+
+# ── Logs ─────────────────────────────────────────────
+*.log
+logs/
